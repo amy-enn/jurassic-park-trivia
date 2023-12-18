@@ -40,7 +40,6 @@ The front-end for this app is built with React and Next.js (Typescript), and it 
 - **Score Calculation**: Tracks the user's responses and calculates the score based on correct answers.
 - **Result Display**: At the end of the game, displays the user's score and offers an option to restart the game.
 
-![homepage screenshot](homepage_screenshot.png)
 
 ## Getting Started
 
@@ -54,6 +53,9 @@ npm run dev
 The app will be available for you to interact with at **localhost:3000**.
 
 Alternatively, you can view the deployed version of this app at https://jurassicparktrivia.vercel.app 
+
+![homepage screenshot](homepage_screenshot.png)
+![question screenshot](question_screenshot.png)
 
 
 
