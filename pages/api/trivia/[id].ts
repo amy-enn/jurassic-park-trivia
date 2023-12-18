@@ -1,6 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import fs from 'fs';
-import path from 'path';
+import jsonData from '@/data/jurassic_trivia.json';
 
 interface TriviaQuestion {
     id: number;
@@ -14,10 +13,7 @@ export default function handler(
     res: NextApiResponse<TriviaQuestion | { message: string }>
 ) {
     let { id } = req.query;
-    let filePath = path.join(process.cwd(), 'public', 'jurassic_trivia.json');
-
-    let jsonData = fs.readFileSync(filePath, 'utf8');
-    let triviaQuestions: TriviaQuestion[] = JSON.parse(jsonData);
+    let triviaQuestions: TriviaQuestion[] = jsonData;
 
     let question = triviaQuestions.find(q => q.id === parseInt(id as string));
 

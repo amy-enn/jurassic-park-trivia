@@ -32,8 +32,8 @@
         {
             "id": 6,
             "question": "What type of dinosaur embryos does Dennis Nedry steal?",
-            "options": ["Tyrannosaurus Rex", "Velociraptor", "Multiple types, including T-rex and Velociraptor", "Brachiosaurus"],
-            "answer": "Multiple types, including T-rex and Velociraptor"
+            "options": ["Tyrannosaurus Rex", "Velociraptor", "Multiple types", "Brachiosaurus"],
+            "answer": "Multiple types"
         },
         {
             "id": 7,

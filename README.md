@@ -1,3 +1,3 @@
-### 🦕 jurassic park trivia api 🦖
+### 🦕 jurassic park trivia 🦖
 
 WIP
