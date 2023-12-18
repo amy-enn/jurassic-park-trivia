@@ -1,0 +1,244 @@
+[
+        {
+            "id": 1,
+            "question": "What type of dinosaur does Dr. Grant scare a kid with, using a raptor claw?",
+            "options": ["Tyrannosaurus Rex", "Velociraptor", "Triceratops", "Brachiosaurus"],
+            "answer": "Velociraptor"
+        },
+        {
+            "id": 2,
+            "question": "Which dinosaur kills the lawyer, Donald Gennaro?",
+            "options": ["Velociraptor", "Dilophosaurus", "Tyrannosaurus Rex", "Spinosaurus"],
+            "answer": "Tyrannosaurus Rex"
+        },
+        {
+            "id": 3,
+            "question": "What is the first dinosaur seen by the park visitors on their tour?",
+            "options": ["Dilophosaurus", "Brachiosaurus", "Velociraptor", "Gallimimus"],
+            "answer": "Brachiosaurus"
+        },
+        {
+            "id": 4,
+            "question": "Which dinosaur is sick when Dr. Sattler examines it?",
+            "options": ["Gallimimus", "Stegosaurus", "Triceratops", "Brachiosaurus"],
+            "answer": "Triceratops"
+        },
+        {
+            "id": 5,
+            "question": "What feature is unique to the Dilophosaurus in the movie?",
+            "options": ["It spits venom", "It can camouflage", "It has a frill", "It spits venom and has a frill"],
+            "answer": "It spits venom and has a frill"
+        },
+        {
+            "id": 6,
+            "question": "What type of dinosaur embryos does Dennis Nedry steal?",
+            "options": ["Tyrannosaurus Rex", "Velociraptor", "Multiple types, including T-rex and Velociraptor", "Brachiosaurus"],
+            "answer": "Multiple types, including T-rex and Velociraptor"
+        },
+        {
+            "id": 7,
+            "question": "What is the name of the small, chicken-sized dinosaur that appears in the beginning of the movie?",
+            "options": ["Compsognathus", "Dilophosaurus", "Velociraptor", "Pteranodon"],
+            "answer": "Compsognathus"
+        },
+        {
+            "id": 8,
+            "question": "Which dinosaur's DNA is used to fill the gene sequence gaps for the other dinosaurs?",
+            "options": ["Frog DNA", "Bird DNA", "Lizard DNA", "Shark DNA"],
+            "answer": "Frog DNA"
+        },
+        {
+            "id": 9,
+            "question": "What distinctive sound does the Parasaurolophus make in the movie?",
+            "options": ["A trumpeting sound", "A roaring sound", "A hissing sound", "A barking sound"],
+            "answer": "A trumpeting sound"
+        },
+        {
+            "id": 10,
+            "question": "Which dinosaur does Tim Murphy reference as being his favorite?",
+            "options": ["Gallimimus", "Triceratops", "Velociraptor", "Brachiosaurus"],
+            "answer": "Gallimimus"
+        },
+        {
+            "id": 11,
+            "question": "Who directed 'Jurassic Park'?",
+            "options": ["James Cameron", "Steven Spielberg", "Ridley Scott", "George Lucas"],
+            "answer": "Steven Spielberg"
+        },
+        {
+            "id": 12,
+            "question": "In what year was 'Jurassic Park' released?",
+            "options": ["1990", "1993", "1995", "1997"],
+            "answer": "1993"
+        },
+        {
+            "id": 13,
+            "question": "Which composer created the iconic score for 'Jurassic Park'?",
+            "options": ["Hans Zimmer", "John Williams", "Danny Elfman", "James Horner"],
+            "answer": "John Williams"
+        },
+        {
+            "id": 14,
+            "question": "What is the name of the fictional island where Jurassic Park is located?",
+            "options": ["Isla Nublar", "Isla Sorna", "Skull Island", "Monster Island"],
+            "answer": "Isla Nublar"
+        },
+        {
+            "id": 15,
+            "question": "Which special effects company worked on the dinosaurs for 'Jurassic Park'?",
+            "options": ["Weta Workshop", "Industrial Light & Magic", "Pixar", "Framestore"],
+            "answer": "Industrial Light & Magic"
+        },
+        {
+            "id": 16,
+            "question": "Who wrote the novel 'Jurassic Park,' on which the movie is based?",
+            "options": ["Stephen King", "Michael Crichton", "Dean Koontz", "Peter Benchley"],
+            "answer": "Michael Crichton"
+        },
+        {
+            "id": 17,
+            "question": "What type of vehicle is used for the park tour in the movie?",
+            "options": ["Jeep Wrangler", "Ford Explorer", "Land Rover", "Chevrolet Tahoe"],
+            "answer": "Ford Explorer"
+        },
+        {
+            "id": 18,
+            "question": "Who is the cinematographer for 'Jurassic Park'?",
+            "options": ["Janusz Kamiński", "Dean Cundey", "Roger Deakins", "Douglas Slocombe"],
+            "answer": "Dean Cundey"
+        },
+        {
+            "id": 19,
+            "question": "Which island near Costa Rica served as the primary filming location for 'Jurassic Park'?",
+            "options": ["Kauai, Hawaii", "Catalina Island, California", "Isla Mujeres, Mexico", "Bora Bora, French Polynesia"],
+            "answer": "Kauai, Hawaii"
+        },
+        {
+            "id": 20,
+            "question": "What innovative technology was heavily used for the first time in 'Jurassic Park' to create the dinosaurs?",
+            "options": ["Motion Capture", "Stop Motion Animation", "Computer-Generated Imagery (CGI)", "Animatronics"],
+            "answer": "Computer-Generated Imagery (CGI)"
+        },
+        {
+            "id": 21,
+            "question": "Who is the creator of Jurassic Park?",
+            "options": ["Dr. Ian Malcolm", "John Hammond", "Dennis Nedry", "Dr. Alan Grant"],
+            "answer": "John Hammond"
+        },
+        {
+            "id": 22,
+            "question": "Which character is a paleobotanist?",
+            "options": ["Dr. Ellie Sattler", "Dr. Alan Grant", "Lex Murphy", "Robert Muldoon"],
+            "answer": "Dr. Ellie Sattler"
+        },
+        {
+            "id": 23,
+            "question": "Who is the park's game warden?",
+            "options": ["Donald Gennaro", "Robert Muldoon", "Ray Arnold", "John Hammond"],
+            "answer": "Robert Muldoon"
+        },
+        {
+            "id": 24,
+            "question": "What is the profession of Dr. Alan Grant?",
+            "options": ["Geologist", "Paleontologist", "Geneticist", "Botanist"],
+            "answer": "Paleontologist"
+        },
+        {
+            "id": 25,
+            "question": "Which character is played by Jeff Goldblum?",
+            "options": ["Dr. Ian Malcolm", "Dr. Alan Grant", "Dennis Nedry", "Donald Gennaro"],
+            "answer": "Dr. Ian Malcolm"
+        },
+        {
+            "id": 26,
+            "question": "Who sabotages the park's security system?",
+            "options": ["Dr. Ellie Sattler", "Dennis Nedry", "Donald Gennaro", "Ray Arnold"],
+            "answer": "Dennis Nedry"
+        },
+        {
+            "id": 27,
+            "question": "What relation is Tim Murphy to John Hammond?",
+            "options": ["Nephew", "Grandson", "Son", "Brother"],
+            "answer": "Grandson"
+        },
+        {
+            "id": 28,
+            "question": "What kind of vehicle do the characters use to tour the park?",
+            "options": ["Helicopter", "ATV", "Golf Cart", "Automated Ford Explorer"],
+            "answer": "Automated Ford Explorer"
+        },
+        {
+            "id": 29,
+            "question": "Which character is a mathematician and chaos theorist?",
+            "options": ["Dr. Alan Grant", "Dr. Ellie Sattler", "Dr. Ian Malcolm", "John Hammond"],
+            "answer": "Dr. Ian Malcolm"
+        },
+        {
+            "id": 30,
+            "question": "What is the first dinosaur that attacks the children?",
+            "options": ["Tyrannosaurus Rex", "Velociraptor", "Dilophosaurus", "Triceratops"],
+            "answer": "Tyrannosaurus Rex"
+        },
+        {
+            "id": 31,
+            "question": "Which character says the famous line, 'Life finds a way'?",
+            "options": ["John Hammond", "Dr. Ian Malcolm", "Dr. Alan Grant", "Dennis Nedry"],
+            "answer": "Dr. Ian Malcolm"
+        },
+        {
+            "id": 32,
+            "question": "What is the main reason the group visits Jurassic Park?",
+            "options": ["Vacation", "Safety Inspection", "Investment Opportunities", "Scientific Research"],
+            "answer": "Safety Inspection"
+        },
+        {
+            "id": 33,
+            "question": "Who is responsible for restoring power to the park?",
+            "options": ["Dr. Ellie Sattler", "Dr. Ian Malcolm", "Dr. Alan Grant", "Robert Muldoon"],
+            "answer": "Dr. Ellie Sattler"
+        },
+        {
+            "id": 34,
+            "question": "What type of dinosaur pursues the children in the kitchen scene?",
+            "options": ["Tyrannosaurus Rex", "Velociraptor", "Dilophosaurus", "Brachiosaurus"],
+            "answer": "Velociraptor"
+        },
+        {
+            "id": 35,
+            "question": "Who is the first character to be killed by a dinosaur in the movie?",
+            "options": ["Donald Gennaro", "Dennis Nedry", "Robert Muldoon", "Ray Arnold"],
+            "answer": "Donald Gennaro"
+        },
+        {
+            "id": 36,
+            "question": "What animals does John Hammond use to describe the DNA extraction process?",
+            "options": ["Mosquitoes in amber", "Frogs in sap", "Snakes in stone", "Bees in honey"],
+            "answer": "Mosquitoes in amber"
+        },
+        {
+            "id": 37,
+            "question": "Which character is a computer programmer and hacker?",
+            "options": ["Lex Murphy", "Tim Murphy", "Dennis Nedry", "Ray Arnold"],
+            "answer": "Lex Murphy"
+        },
+        {
+            "id": 38,
+            "question": "What does Dennis Nedry use to smuggle dinosaur embryos?",
+            "options": ["A shaving cream can", "A soda can", "A lunch box", "A backpack"],
+            "answer": "A shaving cream can"
+        },
+        {
+            "id": 39,
+            "question": "Which character provides comedic relief and is known for his colorful shirts?",
+            "options": ["John Hammond", "Dr. Ian Malcolm", "Donald Gennaro", "Dennis Nedry"],
+            "answer": "Dr. Ian Malcolm"
+        },
+        {
+            "id": 40,
+            "question": "How do the visitors first learn about the cloning process?",
+            "options": ["A live demonstration", "A museum exhibit", "A video presentation", "A lecture by John Hammond"],
+            "answer": "A video presentation"
+        }
+
+    ]
+
