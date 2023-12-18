@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Question from "@/components/Question";
+import ScoreModal from "@/components/ScoreModal";
 
 interface TriviaQuestion {
   id: number,
@@ -14,13 +15,18 @@ export default function Home() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [showQuestion, setShowQuestion] = useState<boolean>(false);
   const [userResponses, setUserResponses] = useState<number[]>([]);
+  const [gameOver, setGameOver] = useState<boolean>(false);
+  const [score, setScore] = useState<number>(0);
 
   async function startGame() {
     try {
       let response = await fetch('/api/triviagame');
       let questions = await response.json();
       setTriviaQuestions(questions);
+      setCurrentQuestionIndex(0);
+      setUserResponses([]);
       setShowQuestion(true);
+      setGameOver(false);
     } catch (error) {
       console.error("Failed to fetch trivia questions:", error);
     }
@@ -30,19 +36,29 @@ export default function Home() {
 
   function handleAnswerSubmission(selectedAnswer: string) {
     let isCorrect = selectedAnswer === triviaQuestions[currentQuestionIndex].answer;
-    setUserResponses([...userResponses, isCorrect ? 1 : 0]);
+    let updatedResponses = [...userResponses, isCorrect ? 1 : 0];
+    setUserResponses(updatedResponses);
 
-    if (currentQuestionIndex < triviaQuestions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
+    if (currentQuestionIndex === triviaQuestions.length - 1) {
+      setGameOver(true);
+      setShowQuestion(false);
+      let finalScore = updatedResponses.filter(res => res === 1).length;
+      console.log("Game Over! Your score: ", score);
+      setScore(finalScore);
     } else {
-      // TODO handle the end of the game (e.g., show results)
-    }
+
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+    } 
   };
 
 
   function handleClose() {
     setShowQuestion(false);
   };
+
+  function handleCloseScore() {
+    setGameOver(false);
+  }
 
 
   return (
@@ -64,6 +80,7 @@ export default function Home() {
           onAnswer={handleAnswerSubmission}
         />
       )}
+      {gameOver && <ScoreModal score={score} totalQuestions={triviaQuestions.length} onRestart={startGame} onClose={handleCloseScore} />}
     </div>
   )
 }
