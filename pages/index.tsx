@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Question from "@/components/Question";
 import ScoreModal from "@/components/ScoreModal";
+import AboutModal from "@/components/AboutModal";
 
 interface TriviaQuestion {
   id: number,
@@ -52,6 +53,10 @@ export default function Home() {
     } 
   };
 
+  function handleOpenAbout() {
+    setShowAboutModal(true);
+  }
+
 
   function handleClose() {
     setShowQuestionModal(false);
@@ -72,7 +77,7 @@ export default function Home() {
       <button onClick={startGame} className="my-4 px-3 py-1 rounded-3xl border-yellow-950 border-4 text-lg bg-green-700">START!</button>
       <div id="linksDiv" className="flex flex-row">
         <a href="https://github.com/amy-enn/jurassic-park-trivia" className="mx-2 text-xs">GitHub</a>
-        <a href="#" className="mx-2 text-xs">About</a>
+        <button onClick={handleOpenAbout} className="mx-2 text-xs">About</button>
       </div>
       {showQuestionModal && triviaQuestions.length > 0 && (
         <Question
@@ -83,6 +88,9 @@ export default function Home() {
         />
       )}
       {gameOver && <ScoreModal score={score} totalQuestions={triviaQuestions.length} onRestart={startGame} onClose={handleCloseScore} />}
+      {showAboutModal && <AboutModal onClose={() => setShowAboutModal(false)} />
+}
+
     </div>
   )
 }

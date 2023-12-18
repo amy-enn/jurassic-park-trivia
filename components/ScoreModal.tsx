@@ -7,7 +7,7 @@ interface ScoreModalProps {
   
   export default function ScoreModal({ score, totalQuestions, onRestart, onClose }: ScoreModalProps) {
     return (
-      <div className="fixed inset-0 flex justify-center items-center">
+      <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
         <div className="bg-lime-800 p-6 rounded-lg shadow-lg border-4 w-1/2 border-yellow-950">
           <h2 className="text-xl font-bold">Game Over!</h2>
           <p>Your Score: {score} / {totalQuestions}</p>

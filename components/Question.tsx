@@ -24,7 +24,7 @@ export default function Question({ question, options, onAnswer, onClose }: Quest
 
 
     return (
-        <div className="fixed inset-0 flex justify-center items-center">
+        <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
             <div className="bg-green-800 p-6 rounded-lg w-2/3 shadow-lg border-4 border-yellow-950">
                 <h2 className="text-xl font-bold mb-4">{question}</h2>
                 <div className="space-y-3">
