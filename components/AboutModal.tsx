@@ -16,7 +16,7 @@ export default function About({ onClose }: AboutProps) {
                 </h3>
 
                 <p className="text-sm my-2">
-                    This project provides a json dataset, an API with 2 endpoints, and a front end interface for trivia questions related to the Jurassic Park movie.  I wanted to practice writing and deploying simple Next.js API endpoints to Vercel, and I ended up continuing on and adding a cute React interface, styled with Tailwind, for this simple trivia game.
+                    This project provides a json dataset, an API with 2 endpoints, and a front end interface for trivia questions related to the Jurassic Park movie.  I wanted to practice writing and deploying simple Next.js API endpoints to Vercel, and I ended up continuing on and adding a cute front end for this simple trivia game.
                 </p>
 
                 <p className="text-sm my-2">The front-end for this app is built with React (Typescript), and it uses Tailwind CSS for styling.</p>
@@ -38,8 +38,8 @@ export default function About({ onClose }: AboutProps) {
                     <li className="my-1">- Endpoint: <code>/api/trivia/[id]</code></li>
                     <li className="my-1">- Method: <code>GET</code></li>
                     <li className="my-1">- Description: Retrieves a specific trivia question by its ID.</li>
-                    <li className="my-1">- Parameter:<code>id</code> (integer). which uniquely identifies each trivia question.</li>
-                    <li className="my-1">- Response Format: An object representing the trivia question with its ID, text, options, and answer. If no question is found for the requested ID, a 404 error is returned.</li>
+                    <li className="my-1">- Parameter:<code>id</code> (integer) - uniquely identifies each trivia question.</li>
+                    <li className="my-1">- Response Format: An object representing the trivia question with its ID, text, options, and answer.</li>
                 </ul>
 
                 <p className="mt-4 mb-1 font-bold">🦖 Front End Features</p>
