@@ -71,9 +71,9 @@ export default function Home() {
 
     <div className="font-mono bg-lime-900 flex flex-col items-center justify-center min-h-screen">
       <h1 className="text-3xl p-2 border-4 border-yellow-950 bg-lime-700 rounded-3xl">
-        🦕 jurassic park trivia 🦖
+        jurassic park trivia
       </h1>
-      <p className="italic my-2 text-xs">a tiny full-stack app by amy</p>
+      <p className="italic my-2 text-xs"><span className="text-lg">🦕</span> a tiny full-stack app <span className="text-lg">🦖</span></p>
       <button onClick={startGame} className="my-4 px-3 py-1 rounded-3xl border-yellow-950 border-4 text-lg bg-green-700">START!</button>
       <div id="linksDiv" className="flex flex-row">
         <a href="https://github.com/amy-enn/jurassic-park-trivia" className="mx-2 text-xs">GitHub</a>

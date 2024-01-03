@@ -27,10 +27,10 @@ export default function Question({ question, options, onAnswer, onClose, current
 
 
     return (
-        <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
-            <div className="bg-green-800 p-6 rounded-lg w-2/3 shadow-lg border-4 border-yellow-950">
+        <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex  justify-center items-center">
+            <div className="bg-green-800 p-4 rounded-lg w-3/4 max-h-3/4 shadow-lg border-4 border-yellow-950 overflow-y-scroll">
                 <div className="mb-4">Question {currentQuestionIndex + 1}/{totalQuestions}</div>
-                <h2 className="text-xl font-bold mb-4">{question}</h2>
+                <h2 className="text-lg font-bold mb-4">{question}</h2>
                 <div className="space-y-3">
                     {options.map((option, index) => (
                         <button 
@@ -42,7 +42,7 @@ export default function Question({ question, options, onAnswer, onClose, current
                         </button>
                     ))}
                 </div>
-                <div id="buttonsDiv" className="flex flex-row justify-between">
+                <div id="buttonsDiv" className="flex flex-col sm:flex-row justify-between">
                 <button 
                       className="m-4 px-4 py-2 bg-green-600 text-black rounded-3xl border-4 border-yellow-950"
                       onClick={handleSubmit}
