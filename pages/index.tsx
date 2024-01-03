@@ -70,7 +70,7 @@ export default function Home() {
   return (
 
     <div className="font-mono bg-lime-900 flex flex-col items-center justify-center min-h-screen">
-      <h1 className="text-3xl p-2 border-4 border-yellow-950 bg-lime-700 rounded-3xl">
+      <h1 className="text-3xl p-2 m-2 border-4 text-center border-yellow-950 bg-lime-700 rounded-3xl">
         jurassic park trivia
       </h1>
       <p className="italic my-2 text-xs"><span className="text-lg">🦕</span> a tiny full-stack app <span className="text-lg">🦖</span></p>
