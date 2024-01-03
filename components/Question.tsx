@@ -28,7 +28,7 @@ export default function Question({ question, options, onAnswer, onClose, current
 
     return (
         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex  justify-center items-center">
-            <div className="bg-green-800 p-4 rounded-lg w-3/4 h-3/4 shadow-lg border-4 border-yellow-950 overflow-y-auto flex flex-col justify-center">
+            <div className="bg-green-800 p-4 rounded-lg w-3/4 max-h-[90vh] shadow-lg border-4 border-yellow-950 overflow-y-auto flex flex-col justify-center">
                 <div className="mb-4">Question {currentQuestionIndex + 1}/{totalQuestions}</div>
                 <h2 className="text-lg font-bold mb-4">{question}</h2>
                 <div>

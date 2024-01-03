@@ -1,5 +1,7 @@
 # 🦕 Jurassic Park Trivia 🦖
 
+![screencap](jurassicpark.gif)
+
 
 This project provides a json dataset, an API with 2 endpoints, and a front end interface for trivia questions related to the Jurassic Park movie.  I wanted to practice writing and deploying simple Next.js API endpoints to Vercel, and I ended up continuing on and adding a cute React interface, styled with Tailwind, for this simple trivia game.
 
