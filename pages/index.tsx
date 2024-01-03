@@ -85,6 +85,8 @@ export default function Home() {
           options={triviaQuestions[currentQuestionIndex].options}
           onClose={handleClose}
           onAnswer={handleAnswerSubmission}
+          currentQuestionIndex={currentQuestionIndex}
+          totalQuestions={triviaQuestions.length}
         />
       )}
       {gameOver && <ScoreModal score={score} totalQuestions={triviaQuestions.length} onRestart={startGame} onClose={handleCloseScore} />}
