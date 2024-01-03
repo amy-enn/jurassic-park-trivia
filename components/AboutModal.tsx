@@ -9,7 +9,9 @@ export default function About({ onClose }: AboutProps) {
 
     return (
         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
-            <div className="bg-lime-900 p-6 rounded-lg w-3/4 shadow-lg border-4 border-yellow-950 overflow-auto max-h-3/4">
+            <div className="bg-lime-900 p-6 rounded-lg w-3/4 max-h-[90vh] overflow-y-auto shadow-lg border-4 border-yellow-950 flex flex-col">
+
+
 
                 <h3 className="text-xl my-2 font-bold">
                     Jurassic Park Trivia
@@ -64,7 +66,9 @@ export default function About({ onClose }: AboutProps) {
 
 
                 <button onClick={onClose} className="mt-4 px-4 py-2 rounded-3xl border-yellow-950 border-4 text-black text-sm bg-green-700">Close</button>
+
             </div>
         </div>
     );
+
 }
